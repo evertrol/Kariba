@@ -1,9 +1,20 @@
 var searchData=
 [
-  ['improve_20extend_20or_20fix_20a_20bug_20in_20the_20library_0',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md24',1,'']]],
-  ['in_20the_20library_1',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md24',1,'']]],
-  ['include_20files_2',['Header / include files',['../md_style-and-tips.html#autotoc_md13',1,'']]],
+  ['improve_20extend_20or_20fix_20a_20bug_20in_20the_20library_0',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md28',1,'']]],
+  ['in_20the_20library_1',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md28',1,'']]],
+  ['include_20files_2',['Header / include files',['../md_style-and-tips.html#autotoc_md17',1,'']]],
   ['index_2emd_3',['index.md',['../index_8md.html',1,'']]],
-  ['installation_4',['installation',['../md_installation.html',1,'installation'],['../md_installation.html#autotoc_md3',1,'Set up the installation']]],
-  ['installation_2emd_5',['installation.md',['../installation_8md.html',1,'']]]
+  ['initialize_5fgdens_4',['initialize_gdens',['../classkariba_1_1Particles.html#a1a41047615de751669b563464120dc3e',1,'kariba::Particles']]],
+  ['initialize_5fpdens_5',['initialize_pdens',['../classkariba_1_1Particles.html#acc0e46941581995002b790aca2616784',1,'kariba::Particles']]],
+  ['injection_5fbkn_5fint_6',['injection_bkn_int',['../classkariba_1_1Bknpower.html#ae7d29a01f09741f1ba85f7a56300efcd',1,'kariba::Bknpower::injection_bkn_int'],['../namespacekariba.html#a9f983f49745463afc8583040c17120b5',1,'kariba::injection_bkn_int()']]],
+  ['injection_5fkappa_5fint_7',['injection_kappa_int',['../classkariba_1_1Kappa.html#a25dd6c9c497e4fa874fa1777ab670677',1,'kariba::Kappa::injection_kappa_int'],['../namespacekariba.html#a8fe4835d54a436b0666f2e52bdf2cec5',1,'kariba::injection_kappa_int(double x, void *pars)']]],
+  ['injection_5fmixed_5fint_8',['injection_mixed_int',['../namespacekariba.html#a1171f3432d4ece7fac07e4ab3fb3acc8',1,'kariba']]],
+  ['injection_5fpl_5fint_9',['injection_pl_int',['../namespacekariba.html#a0888cd212414fd853631ada42c5bc8ed',1,'kariba']]],
+  ['injectionbknparams_10',['InjectionBknParams',['../structkariba_1_1InjectionBknParams.html',1,'kariba']]],
+  ['injectionkappaparams_11',['InjectionKappaParams',['../structkariba_1_1InjectionKappaParams.html',1,'kariba']]],
+  ['injectionmixedparams_12',['InjectionMixedParams',['../structkariba_1_1InjectionMixedParams.html',1,'kariba']]],
+  ['injectionplparams_13',['InjectionPlParams',['../structkariba_1_1InjectionPlParams.html',1,'kariba']]],
+  ['installation_14',['installation',['../md_installation.html',1,'installation'],['../md_installation.html#autotoc_md7',1,'Set up the installation']]],
+  ['installation_2emd_15',['installation.md',['../installation_8md.html',1,'']]],
+  ['integrated_5fluminosity_16',['integrated_luminosity',['../classkariba_1_1Radiation.html#a20ac53371ada2e937db6ab2feb484deb',1,'kariba::Radiation']]]
 ];

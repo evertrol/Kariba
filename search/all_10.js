@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['set_20up_20the_20installation_0',['Set up the installation',['../md_installation.html#autotoc_md3',1,'']]],
-  ['setup_1',['Git setup',['../md_using.html#autotoc_md25',1,'']]],
-  ['small_2',['Keep your functions small',['../md_style-and-tips.html#autotoc_md8',1,'']]],
-  ['some_20parts_20of_20the_20library_3',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md21',1,'']]],
-  ['some_20style_20guidelines_20and_20tips_4',['Some style guidelines and tips',['../md_style-and-tips.html',1,'']]],
-  ['standard_20library_20utilities_5',['Use the C++ standard library utilities',['../md_style-and-tips.html#autotoc_md7',1,'']]],
-  ['style_6',['Style',['../md_style-and-tips.html#autotoc_md10',1,'']]],
-  ['style_20guidelines_20and_20tips_7',['Some style guidelines and tips',['../md_style-and-tips.html',1,'']]],
-  ['style_2dand_2dtips_2emd_8',['style-and-tips.md',['../style-and-tips_8md.html',1,'']]]
+  ['r_0',['r',['../classkariba_1_1Radiation.html#a658b3bec02597105acaf484b5bacc165',1,'kariba::Radiation']]],
+  ['radiation_1',['radiation',['../classkariba_1_1Radiation.html',1,'kariba::Radiation'],['../classkariba_1_1Radiation.html#a72c26090e16d3a8a34fe1aedb22bf126',1,'kariba::Radiation::Radiation()']]],
+  ['radiation_2ecpp_2',['Radiation.cpp',['../Radiation_8cpp.html',1,'']]],
+  ['radiation_2ehpp_3',['Radiation.hpp',['../Radiation_8hpp.html',1,'']]],
+  ['re0_4',['re0',['../namespacekariba_1_1constants.html#a8eb7263489ac132a2a0f38982af82fbb',1,'kariba::constants']]],
+  ['readme_2emd_5',['README.md',['../README_8md.html',1,'']]],
+  ['redshift_6',['redshift',['../namespacekariba.html#abc3a0b102da5f6c211f5bab94bbee60d',1,'kariba']]],
+  ['request_7',['request',['../md_using.html#autotoc_md31',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md32',1,'Updating the pull request']]],
+  ['reset_8',['reset',['../classkariba_1_1Compton.html#a316a493a4576076e228b13ed81c1476c',1,'kariba::Compton']]],
+  ['rin_9',['rin',['../structkariba_1_1DiskObsParams.html#a6a4f549f3015808725bfbb5129afd686',1,'kariba::DiskObsParams::rin'],['../structkariba_1_1DiskIcParams.html#aebea6ac1d907cddcd5bf8f466114284c',1,'kariba::DiskIcParams::rin'],['../classkariba_1_1ShSDisk.html#a10749bbdfaf3b4e4ea071488f7bdc9c9',1,'kariba::ShSDisk::rin()']]],
+  ['rout_10',['rout',['../structkariba_1_1DiskIcParams.html#a7937fb2d7d630aacb200da0deb5f62cf',1,'kariba::DiskIcParams']]],
+  ['running_20the_20test_20and_20examples_11',['Compiling and running the test and examples',['../md_installation.html#autotoc_md9',1,'']]]
 ];

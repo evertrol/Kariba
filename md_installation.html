@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('md_installation.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>The Kariba library can be installed using CMake. The installation has been tested against CMake version 3.26, 3.28 and 4.0.</p>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md5"></a>
 Prerequisites</h1>
 <p>The library has two prerequisites:</p>
 <ul>
@@ -102,13 +102,13 @@ Prerequisites</h1>
 <p class="startli">If you like, you can install PyBind11 in a virtual environment. Just make sure that virtual environment is activated when you build the Kariba library.</p>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 Download</h1>
 <p>First, download or clone the repository.</p>
 <p>You can download a zip file from <a href="https://github.com/evertrol/bhjet">https://github.com/evertrol/bhjet</a> (click the green '&lt;&gt; Code' button, then select "Download ZIP"), or clone the repository: on the command line, in a suitable directory: </p><div class="fragment"><div class="line">git clone https://github.com/evertrol/BHJet.git</div>
 <div class="line"> </div>
 <div class="line">cd BHJet</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md7"></a>
 Set up the installation</h1>
 <p>Once inside the local repository, take the following steps:</p>
 <ul>
@@ -121,7 +121,7 @@ Set up the installation</h1>
 </li>
 <li>Check that PyBind11 for Python is installed. Running <code>python -m pybind11</code> on the command line should show a help message (instead of an error), and <code>python -m pybind11 --cmakedir</code> should print the directory where PyBind11 stores CMake configuration files. (This command is exactly what is being used during the installation to locate and use PyBind11.)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 Build the code</h1>
 <p>In the base BHJet directory, create a build directory; simply called it <code>build/</code>, and change to it: </p><div class="fragment"><div class="line">mkdir build</div>
 <div class="line">cd build</div>
@@ -135,7 +135,7 @@ Build the code</h1>
 <p>If you want, you can now install the code, with </p><div class="fragment"><div class="line">cmake --install .</div>
 </div><!-- fragment --><p>This essentially only copies the files to a more generic directory. If you like, you can change this directory from what is configuration in the <code>config.cmake</code> file, with the <code>--install-prefix</code> option. For example:</p>
 <div class="fragment"><div class="line">cmake --install --install-prefix=$HOME/sw .</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md5"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md9"></a>
 Compiling and running the test and examples</h1>
 <p>If you build everything from the root directory, the unit tests and the examples should already have been built. Otherwise, enter the respective directories, tests/ and examples/, and simply run <code>make</code>.</p>
 <p>Once build, inside the respective directories, you can run all the unit tests with</p>

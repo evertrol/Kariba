@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['branch_20and_20add_20your_20changes_0',['Create a branch and add your changes',['../md_using.html#autotoc_md26',1,'']]],
-  ['branch_20and_20create_20a_20pull_20request_1',['Push the branch and create a pull request',['../md_using.html#autotoc_md27',1,'']]],
-  ['bug_20in_20the_20library_2',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md24',1,'']]],
-  ['build_20the_20code_3',['Build the code',['../md_installation.html#autotoc_md4',1,'']]],
-  ['building_20kariba_20the_20examples_20and_20tests_4',['Building Kariba, the examples and tests',['../md_testing.html#autotoc_md15',1,'']]]
+  ['b_0',['b',['../structkariba_1_1CyclosynEmisParams.html#a937f05cde90b91397a7fdd5beef16791',1,'kariba::CyclosynEmisParams::b'],['../structkariba_1_1CyclosynAbsParams.html#afd882f7e387df203207c4d941127a7da',1,'kariba::CyclosynAbsParams::b']]],
+  ['barn_1',['barn',['../namespacekariba_1_1constants.html#a425eedff4a3497126d486de0b179368e',1,'kariba::constants']]],
+  ['bb_5fseed_5fk_2',['bb_seed_k',['../classkariba_1_1Compton.html#aea8167eba5cf553599e7ed5e3a739726',1,'kariba::Compton']]],
+  ['bb_5fseed_5fkev_3',['bb_seed_kev',['../classkariba_1_1Compton.html#adca1391b29ee12c6f5810865e4fac3eb',1,'kariba::Compton']]],
+  ['bb_5fspectrum_4',['bb_spectrum',['../classkariba_1_1BBody.html#a1a864ac87902b5b00ecb761e0ad714ab',1,'kariba::BBody']]],
+  ['bbody_5',['bbody',['../classkariba_1_1BBody.html',1,'kariba::BBody'],['../classkariba_1_1BBody.html#af8469faf99e7d5a42d809d291ab578da',1,'kariba::BBody::BBody()']]],
+  ['bbody_2ecpp_6',['BBody.cpp',['../BBody_8cpp.html',1,'']]],
+  ['bbody_2ehpp_7',['BBody.hpp',['../BBody_8hpp.html',1,'']]],
+  ['beta_8',['beta',['../classkariba_1_1Radiation.html#ac6e2daa688f3aa6f879b534c18b99c34',1,'kariba::Radiation::beta'],['../structkariba_1_1DiskIcParams.html#a6e23ce18a2014db28f28e419d079df61',1,'kariba::DiskIcParams::beta']]],
+  ['bknparams_9',['BknParams',['../structkariba_1_1BknParams.html',1,'kariba']]],
+  ['bknpower_10',['bknpower',['../classkariba_1_1Bknpower.html#a42b0439aa52982e53c6816471656e14c',1,'kariba::Bknpower::Bknpower()'],['../classkariba_1_1Bknpower.html',1,'kariba::Bknpower']]],
+  ['bknpower_2ecpp_11',['Bknpower.cpp',['../Bknpower_8cpp.html',1,'']]],
+  ['bknpower_2ehpp_12',['Bknpower.hpp',['../Bknpower_8hpp.html',1,'']]],
+  ['branch_20and_20add_20your_20changes_13',['Create a branch and add your changes',['../md_using.html#autotoc_md30',1,'']]],
+  ['branch_20and_20create_20a_20pull_20request_14',['Push the branch and create a pull request',['../md_using.html#autotoc_md31',1,'']]],
+  ['brk_15',['brk',['../structkariba_1_1BknParams.html#aa0ec1c9674ceeb0a8c826b438faf6881',1,'kariba::BknParams::brk'],['../structkariba_1_1InjectionBknParams.html#acdf8075cb7b238602fcc9dc3baa8d638',1,'kariba::InjectionBknParams::brk']]],
+  ['bug_20in_20the_20library_16',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md28',1,'']]],
+  ['build_20the_20code_17',['Build the code',['../md_installation.html#autotoc_md8',1,'']]],
+  ['building_20kariba_20the_20examples_20and_20tests_18',['Building Kariba, the examples and tests',['../md_testing.html#autotoc_md19',1,'']]]
 ];
