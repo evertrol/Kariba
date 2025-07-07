@@ -80,11 +80,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -92,9 +88,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BBody_8cpp.html",
-"classkariba_1_1Cyclosyn.html#aab8ce5bcfc43a679ffc78ce15e654f24",
-"classkariba_1_1Radiation.html#a1bf70bca6c0fe376fca337a45e9160e2",
-"namespacekariba_1_1constants.html#a8d886840f7358bfe59bfee5f8c646937"
+"classkariba_1_1Compton.html#a916948a72c7986e71629e74c0c00cd47",
+"classkariba_1_1Powerlaw.html#a07730cc65bfd7ad07a0a71f0e914d5bc",
+"md_testing.html",
+"structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

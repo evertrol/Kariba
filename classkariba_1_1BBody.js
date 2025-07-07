@@ -12,5 +12,8 @@ var classkariba_1_1BBody =
     [ "temp_k", "classkariba_1_1BBody.html#a31530059acbff0c2f0fae4bf6f905ccb", null ],
     [ "temp_kev", "classkariba_1_1BBody.html#acb408c383e95e43325316ca7bed411c4", null ],
     [ "test", "classkariba_1_1BBody.html#a5cb9a801ce4a763a74a9180df2697e29", null ],
-    [ "Urad", "classkariba_1_1BBody.html#ae03634b2995f54e88530b41fc8e11c53", null ]
+    [ "Urad", "classkariba_1_1BBody.html#ae03634b2995f54e88530b41fc8e11c53", null ],
+    [ "Lbb", "classkariba_1_1BBody.html#aa48f0b0c66288a96506ecfd42db7e3d7", null ],
+    [ "normbb", "classkariba_1_1BBody.html#a54dd97e3833e9a163457868b2f722732", null ],
+    [ "Tbb", "classkariba_1_1BBody.html#ab8e55ae15f27e13776cfd4e944b7318f", null ]
 ];

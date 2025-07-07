@@ -14,6 +14,9 @@ var searchData=
   ['ephmax_11',['ephmax',['../structkariba_1_1ComintParams.html#a65bf51854a974d43b0ab1ed780c37333',1,'kariba::ComintParams']]],
   ['ephmin_12',['ephmin',['../structkariba_1_1ComintParams.html#a11dbd653afb9df4faf36bd9ceec928ad',1,'kariba::ComintParams']]],
   ['erg_13',['erg',['../namespacekariba_1_1constants.html#a59811d318db58ae9788239ba43976807',1,'kariba::constants']]],
-  ['eta_14',['eta',['../structkariba_1_1HetaParams.html#a84cdf0331dfa11f916409f2cb01a4c9a',1,'kariba::HetaParams::eta'],['../structkariba_1_1HetagParams.html#a098e85eee3ea6681ddb22d24b66878c2',1,'kariba::HetagParams::eta']]],
-  ['eta_5fzero_15',['eta_zero',['../structkariba_1_1HetaParams.html#a2c4e036238644405718b4468dda8ad47',1,'kariba::HetaParams::eta_zero'],['../structkariba_1_1HetagParams.html#ae2a8407562e730ca42203e3b1e707657',1,'kariba::HetagParams::eta_zero']]]
+  ['esc_5fp_5fcyl_14',['esc_p_cyl',['../classkariba_1_1Compton.html#afc0a4a57770ddac2a0354b2c68db677a',1,'kariba::Compton']]],
+  ['esc_5fp_5fsph_15',['esc_p_sph',['../classkariba_1_1Compton.html#afefa8b486748fd939af32cb32a8c2c0d',1,'kariba::Compton']]],
+  ['escape_5fcorr_16',['escape_corr',['../classkariba_1_1Compton.html#a916948a72c7986e71629e74c0c00cd47',1,'kariba::Compton']]],
+  ['eta_17',['eta',['../structkariba_1_1HetaParams.html#a84cdf0331dfa11f916409f2cb01a4c9a',1,'kariba::HetaParams::eta'],['../structkariba_1_1HetagParams.html#a098e85eee3ea6681ddb22d24b66878c2',1,'kariba::HetagParams::eta']]],
+  ['eta_5fzero_18',['eta_zero',['../structkariba_1_1HetagParams.html#ae2a8407562e730ca42203e3b1e707657',1,'kariba::HetagParams::eta_zero'],['../structkariba_1_1HetaParams.html#a2c4e036238644405718b4468dda8ad47',1,'kariba::HetaParams::eta_zero']]]
 ];

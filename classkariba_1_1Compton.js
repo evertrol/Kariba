@@ -22,5 +22,22 @@ var classkariba_1_1Compton =
     [ "urad_test", "classkariba_1_1Compton.html#ae2d7025bacb82a69763e11b9673699e0", null ],
     [ "comfnc", "classkariba_1_1Compton.html#a6241a7f8fc8b6bcaf80e1022a2426056", null ],
     [ "comint", "classkariba_1_1Compton.html#af5ee861b6066f8d61e6b137b82d35991", null ],
-    [ "disk_integral", "classkariba_1_1Compton.html#a8f87f3914ba50948e59a9ad08c837e89", null ]
+    [ "disk_integral", "classkariba_1_1Compton.html#a8f87f3914ba50948e59a9ad08c837e89", null ],
+    [ "acc_iter", "classkariba_1_1Compton.html#a852dc942ca22e48235ff427f42c710f3", null ],
+    [ "acc_seed", "classkariba_1_1Compton.html#a312d963d10def82e3c03972e7484a561", null ],
+    [ "acc_tau", "classkariba_1_1Compton.html#a6a0fbf5c6b6aed8d5ed946f1055b3b8e", null ],
+    [ "acc_Te", "classkariba_1_1Compton.html#a46f6b85b348fac60ae7b9c12edfd5289", null ],
+    [ "esc_p_cyl", "classkariba_1_1Compton.html#afc0a4a57770ddac2a0354b2c68db677a", null ],
+    [ "esc_p_sph", "classkariba_1_1Compton.html#afefa8b486748fd939af32cb32a8c2c0d", null ],
+    [ "escape_corr", "classkariba_1_1Compton.html#a916948a72c7986e71629e74c0c00cd47", null ],
+    [ "iter_ph", "classkariba_1_1Compton.html#aca4bdacbaea8678928ffad5efdd8742a", null ],
+    [ "iter_urad", "classkariba_1_1Compton.html#aae25f557d9094717dce361ac79ebc87e", null ],
+    [ "Niter", "classkariba_1_1Compton.html#a7b9bc749c4e99665233ed198f64c9e01", null ],
+    [ "rphot", "classkariba_1_1Compton.html#a6bbe17ad86de3901869ebc473dae9bff", null ],
+    [ "seed_energ", "classkariba_1_1Compton.html#ad0791669f8e8b84394700a2b1eeef1bc", null ],
+    [ "seed_ph", "classkariba_1_1Compton.html#ac5d65520d8c70701f7bce86b9386c22a", null ],
+    [ "seed_size", "classkariba_1_1Compton.html#ac055da0e1ea2e96dcc13c7178fa51373", null ],
+    [ "seed_urad", "classkariba_1_1Compton.html#a5ad17eef13d10f2178a887206e104bfd", null ],
+    [ "tau", "classkariba_1_1Compton.html#a1ed38e779199f1f7bc757454b13ec4e5", null ],
+    [ "ypar", "classkariba_1_1Compton.html#ab938c94bebd08e63651f86dab81ec136", null ]
 ];

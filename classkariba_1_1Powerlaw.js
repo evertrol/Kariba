@@ -20,5 +20,10 @@ var classkariba_1_1Powerlaw =
     [ "set_pp_elecs", "classkariba_1_1Powerlaw.html#ae0b6359e9a67b8360b17370a1cbe196b", null ],
     [ "set_pspec", "classkariba_1_1Powerlaw.html#acbd7c5e856153a711cce1303c3347950", null ],
     [ "sigma_pp", "classkariba_1_1Powerlaw.html#ab63a6efadba6f23ef5ae27c672e21532", null ],
-    [ "test", "classkariba_1_1Powerlaw.html#ab53b13c76f6c4cf2c0a2339a4ed3cfd1", null ]
+    [ "test", "classkariba_1_1Powerlaw.html#ab53b13c76f6c4cf2c0a2339a4ed3cfd1", null ],
+    [ "isEfficient", "classkariba_1_1Powerlaw.html#a2b6ace35d0d17dcc202e4cd7d7e365d7", null ],
+    [ "plnorm", "classkariba_1_1Powerlaw.html#a2997452c6142898ff5dc64ee6e23ab13", null ],
+    [ "pmax", "classkariba_1_1Powerlaw.html#a320b6ac87ceacdfe4dcb00df41a414f1", null ],
+    [ "pmin", "classkariba_1_1Powerlaw.html#a573f33efba50f7733037a50ff9c7f457", null ],
+    [ "pspec", "classkariba_1_1Powerlaw.html#a5e766e684e8d0b86429292b716489680", null ]
 ];

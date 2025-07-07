@@ -12,5 +12,11 @@ var classkariba_1_1Bknpower =
     [ "set_pspec2", "classkariba_1_1Bknpower.html#a579e57cf9e3c03c2dfc6dc82ed1c9743", null ],
     [ "test", "classkariba_1_1Bknpower.html#a5c8d3da1c737c62b7a6e1336bad4f355", null ],
     [ "injection_bkn_int", "classkariba_1_1Bknpower.html#ae7d29a01f09741f1ba85f7a56300efcd", null ],
-    [ "norm_bkn_int", "classkariba_1_1Bknpower.html#ace0d03e9aa673e766eee3c92ebe12636", null ]
+    [ "norm_bkn_int", "classkariba_1_1Bknpower.html#ace0d03e9aa673e766eee3c92ebe12636", null ],
+    [ "norm", "classkariba_1_1Bknpower.html#abd9035e6723c0c5f0fca2cf61d620f3d", null ],
+    [ "pbrk", "classkariba_1_1Bknpower.html#abee4eb2da01809be88c6a5f772e2c6ca", null ],
+    [ "pmax", "classkariba_1_1Bknpower.html#a18a57866ffa2fa9acb377cc53f490fb2", null ],
+    [ "pmin", "classkariba_1_1Bknpower.html#a0bd917294717f808adc95a50c30af2c5", null ],
+    [ "pspec1", "classkariba_1_1Bknpower.html#aa98a53e063d33b05a698e142d9487500", null ],
+    [ "pspec2", "classkariba_1_1Bknpower.html#acc9477f73727a683c6f31d636468e48a", null ]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['neutrinos_5fpg_0',['Neutrinos_pg',['../classkariba_1_1Neutrinos__pg.html#a2e0296fe2b39a187349a20e7ece8c7c4',1,'kariba::Neutrinos_pg']]],
+  ['neutrinos_5fpg_0',['Neutrinos_pg',['../classkariba_1_1Neutrinos__pg.html#a7baf05fd5628068db15fc76e76ad6611',1,'kariba::Neutrinos_pg']]],
   ['neutrinos_5fpp_1',['Neutrinos_pp',['../classkariba_1_1Neutrinos__pp.html#addda561981d174d8e4bf5bd1fe356fef',1,'kariba::Neutrinos_pp']]],
   ['norm_2',['norm',['../classkariba_1_1BBody.html#a38ef58726d735b1d4d10fb93473015d9',1,'kariba::BBody']]],
   ['norm_5fbkn_5fint_3',['norm_bkn_int',['../namespacekariba.html#ab59a9fe2643b439b654c7b9a888e9af7',1,'kariba']]],

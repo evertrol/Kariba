@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['z_0',['z',['../structkariba_1_1DiskIcParams.html#a6323da2063e4c12607b04c3db0fe5c4c',1,'kariba::DiskIcParams::z'],['../classkariba_1_1Radiation.html#a325bbffa838cbe2bb6327e533ac8397d',1,'kariba::Radiation::z']]]
+  ['vol_0',['vol',['../classkariba_1_1Radiation.html#a21dd517a59c1084eb1ee4ee755acb215',1,'kariba::Radiation']]]
 ];

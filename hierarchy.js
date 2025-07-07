@@ -16,12 +16,8 @@ var hierarchy =
     [ "kariba::KParams", "structkariba_1_1KParams.html", null ],
     [ "kariba::Particles", "classkariba_1_1Particles.html", [
       [ "kariba::Bknpower", "classkariba_1_1Bknpower.html", null ],
-      [ "kariba::Kappa", "classkariba_1_1Kappa.html", [
-        [ "kariba::Kappa2", "classkariba_1_1Kappa2.html", null ]
-      ] ],
-      [ "kariba::Mixed", "classkariba_1_1Mixed.html", [
-        [ "kariba::Mixed2", "classkariba_1_1Mixed2.html", null ]
-      ] ],
+      [ "kariba::Kappa", "classkariba_1_1Kappa.html", null ],
+      [ "kariba::Mixed", "classkariba_1_1Mixed.html", null ],
       [ "kariba::Powerlaw", "classkariba_1_1Powerlaw.html", null ],
       [ "kariba::Thermal", "classkariba_1_1Thermal.html", null ]
     ] ],

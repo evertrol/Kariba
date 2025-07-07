@@ -6,5 +6,8 @@ var classkariba_1_1Thermal =
     [ "set_norm", "classkariba_1_1Thermal.html#a7b5fa3986146415aa50801f17d10c295", null ],
     [ "set_p", "classkariba_1_1Thermal.html#a85820afa04f98434ff5a0839469f5448", null ],
     [ "set_temp_kev", "classkariba_1_1Thermal.html#ad93d657a60f29ae36b240d9ec5ba3c7a", null ],
-    [ "test", "classkariba_1_1Thermal.html#a9e14cc9e37747fc22805a0d2678c0e92", null ]
+    [ "test", "classkariba_1_1Thermal.html#a9e14cc9e37747fc22805a0d2678c0e92", null ],
+    [ "Temp", "classkariba_1_1Thermal.html#a73500e4a3102f33e2b8690994de54831", null ],
+    [ "theta", "classkariba_1_1Thermal.html#a1d8512d8d1f0bada0c07e8aa93f6dca0", null ],
+    [ "thnorm", "classkariba_1_1Thermal.html#a3b6915989bf3cd0f368d1ad0affd402e", null ]
 ];

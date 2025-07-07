@@ -15,5 +15,10 @@ var classkariba_1_1ShSDisk =
     [ "test", "classkariba_1_1ShSDisk.html#a212bd57e1b6ce5b67305b7b312f86050", null ],
     [ "tin", "classkariba_1_1ShSDisk.html#a646e2b7ef313f0eb4b61dfedfac64047", null ],
     [ "total_luminosity", "classkariba_1_1ShSDisk.html#af86dd7ceafce32f6f839a6de46014ca4", null ],
-    [ "disk_int", "classkariba_1_1ShSDisk.html#a03455f89550bf302ee730a48de2dcf46", null ]
+    [ "disk_int", "classkariba_1_1ShSDisk.html#a03455f89550bf302ee730a48de2dcf46", null ],
+    [ "Hratio", "classkariba_1_1ShSDisk.html#a8f48dbdb73c9f5c0528915c7385bace9", null ],
+    [ "Ldisk", "classkariba_1_1ShSDisk.html#aadada1dc881c69c1f4af764813ce36d5", null ],
+    [ "Mbh", "classkariba_1_1ShSDisk.html#a64fd6ab4f30a883a1d8bc21db5b5b0a4", null ],
+    [ "Rg", "classkariba_1_1ShSDisk.html#a6519906a9a15eeda57ef0137d6922353", null ],
+    [ "Tin", "classkariba_1_1ShSDisk.html#aa0e88ffbc3c7651091ae448bc5c63075", null ]
 ];

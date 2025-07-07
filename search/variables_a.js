@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['n_0',['n',['../structkariba_1_1ThParams.html#a2c51faf28b27e40b7e8bd450bf56fa22',1,'kariba::ThParams::n'],['../structkariba_1_1InjectionKappaParams.html#a89c13050d70edf96cf4976c9792e099b',1,'kariba::InjectionKappaParams::n'],['../structkariba_1_1InjectionPlParams.html#ae5f66bfc62ca83251b6278d57c16c2fb',1,'kariba::InjectionPlParams::n'],['../structkariba_1_1InjectionBknParams.html#a1c0cb8284a8ff7ced3ec8863e490469b',1,'kariba::InjectionBknParams::n'],['../structkariba_1_1PlParams.html#a671714e5a0c99753580f37f7d81bb878',1,'kariba::PlParams::n']]],
-  ['ndens_1',['ndens',['../classkariba_1_1Particles.html#ab119b7425ba1d38bba755c1fed26095d',1,'kariba::Particles']]],
-  ['npl_2',['npl',['../structkariba_1_1InjectionMixedParams.html#a30f59289e52a8e056f5b8b07ed1613d4',1,'kariba::InjectionMixedParams']]],
-  ['nth_3',['nth',['../structkariba_1_1InjectionMixedParams.html#a412bdbfa374e71227a9f29020dbdd8f2',1,'kariba::InjectionMixedParams']]],
-  ['nu_4',['nu',['../structkariba_1_1CyclosynAbsParams.html#af20f5839da7310ac1c4a9b766b6f5a71',1,'kariba::CyclosynAbsParams::nu'],['../structkariba_1_1DiskIcParams.html#ace4e2bdb400296881fecc7eef7b947c1',1,'kariba::DiskIcParams::nu'],['../structkariba_1_1DiskObsParams.html#a0a8a7bb9552ef0b1fcd58e236b815809',1,'kariba::DiskObsParams::nu'],['../structkariba_1_1CyclosynEmisParams.html#a739d957b68c0e525d918af0d046a8204',1,'kariba::CyclosynEmisParams::nu']]],
-  ['nu_5fmax_5',['nu_max',['../structkariba_1_1HetagParams.html#abdbd999358048683c4ee47492a9c6d0d',1,'kariba::HetagParams::nu_max'],['../structkariba_1_1HetaParams.html#a87d8f8bb623a2aa28da6ac015bd48b9e',1,'kariba::HetaParams::nu_max']]],
-  ['nu_5fmin_6',['nu_min',['../structkariba_1_1HetagParams.html#ab25e2c7ad8c84c0dd4f10fa78bf71851',1,'kariba::HetagParams::nu_min'],['../structkariba_1_1HetaParams.html#aa6ba6a0238c96d2e895494e05c314edf',1,'kariba::HetaParams::nu_min']]],
-  ['num_5fphot_7',['num_phot',['../classkariba_1_1Radiation.html#a6acf0a1dc56e815d21cc478bc681c49c',1,'kariba::Radiation']]],
-  ['num_5fphot_5fobs_8',['num_phot_obs',['../classkariba_1_1Radiation.html#ad4dfacc83e82a838b2d6a3d3692880c6',1,'kariba::Radiation']]]
+  ['m_0',['m',['../structkariba_1_1ThParams.html#a244dfca7407796273fdb6a908984db5f',1,'kariba::ThParams::m'],['../structkariba_1_1InjectionMixedParams.html#a000215e89cc25f029b884ff87fbd52b9',1,'kariba::InjectionMixedParams::m'],['../structkariba_1_1InjectionKappaParams.html#a38405d848c7e7538028c231dcf88c0a6',1,'kariba::InjectionKappaParams::m'],['../structkariba_1_1InjectionPlParams.html#aca96bc9889613f2b56b56e334ca43c18',1,'kariba::InjectionPlParams::m'],['../structkariba_1_1InjectionBknParams.html#ae6149213b6213f6acc85089e4cd71c27',1,'kariba::InjectionBknParams::m'],['../structkariba_1_1BknParams.html#a4ddbe55d4baf9ccf06ec1a70b05fd886',1,'kariba::BknParams::m']]],
+  ['mass_5fgr_1',['mass_gr',['../classkariba_1_1Cyclosyn.html#a3c8bdb1c21999b36e59578de217e518d',1,'kariba::Cyclosyn::mass_gr'],['../classkariba_1_1Particles.html#a9191188fe595b105770644a3f924cf87',1,'kariba::Particles::mass_gr']]],
+  ['mass_5fkev_2',['mass_kev',['../classkariba_1_1Particles.html#aa2b41bbb6e9086d0588de270ee129479',1,'kariba::Particles']]],
+  ['max_3',['max',['../structkariba_1_1InjectionMixedParams.html#a25bacd7c9e9b9b1421ab680fe7f34d9c',1,'kariba::InjectionMixedParams::max'],['../structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90',1,'kariba::InjectionBknParams::max'],['../structkariba_1_1InjectionPlParams.html#a1f10c885665fea8fadd313616e140816',1,'kariba::InjectionPlParams::max'],['../structkariba_1_1BknParams.html#ab344acaddad371384b72d7fda9629e0b',1,'kariba::BknParams::max']]],
+  ['mbarn_4',['mbarn',['../namespacekariba_1_1constants.html#abacdad7178c21b0a846ce965eee69310',1,'kariba::constants']]],
+  ['mbh_5',['Mbh',['../classkariba_1_1ShSDisk.html#a64fd6ab4f30a883a1d8bc21db5b5b0a4',1,'kariba::ShSDisk']]],
+  ['me_5fkev_6',['me_kev',['../namespacekariba_1_1constants.html#a7d82f65420417b891f6151cce098c4e2',1,'kariba::constants']]],
+  ['min_7',['min',['../structkariba_1_1InjectionMixedParams.html#a3fb921ff45fb24c65ade99ae85346034',1,'kariba::InjectionMixedParams']]],
+  ['mjy_8',['mjy',['../namespacekariba_1_1constants.html#a990ac933e6f488eafbc2362b09f8d92c',1,'kariba::constants']]],
+  ['mpiontev_9',['mpionTeV',['../namespacekariba_1_1constants.html#a5cf82293ab78dbda35b8fc4affe1b2b5',1,'kariba::constants']]],
+  ['mprottev_10',['mprotTeV',['../namespacekariba_1_1constants.html#ae1b8d10b86adfc0d98bdc99eb13241e7',1,'kariba::constants']]],
+  ['msun_11',['msun',['../namespacekariba_1_1constants.html#aa9c7e7cc19fc4e930757d65e50d228b4',1,'kariba::constants']]]
 ];

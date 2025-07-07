@@ -1,7 +1,6 @@
 var classkariba_1_1Particles =
 [
     [ "Particles", "classkariba_1_1Particles.html#aebc2620332de62a8c5f06f31a31905b3", null ],
-    [ "~Particles", "classkariba_1_1Particles.html#a93325a31dc0baf78ec6b2ddd1e478b11", null ],
     [ "av_gamma", "classkariba_1_1Particles.html#a643783b30871dbf01569c74818ee97b8", null ],
     [ "av_gammasq", "classkariba_1_1Particles.html#aff70c837a43cb7b97568c5348e5ddf35", null ],
     [ "av_p", "classkariba_1_1Particles.html#af2ffaac82053a90311668e5ef2436433", null ],

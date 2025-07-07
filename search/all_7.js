@@ -9,5 +9,6 @@ var searchData=
   ['hetag_6',['Hetag',['../namespacekariba.html#a4925132043ad8b63a02280948a62f030',1,'kariba']]],
   ['hetagparams_7',['HetagParams',['../structkariba_1_1HetagParams.html',1,'kariba']]],
   ['hetaparams_8',['HetaParams',['../structkariba_1_1HetaParams.html',1,'kariba']]],
-  ['hkev_9',['hkev',['../namespacekariba_1_1constants.html#ac9a663a6a4e79b50f9315e5971b82e6d',1,'kariba::constants']]]
+  ['hkev_9',['hkev',['../namespacekariba_1_1constants.html#ac9a663a6a4e79b50f9315e5971b82e6d',1,'kariba::constants']]],
+  ['hratio_10',['Hratio',['../classkariba_1_1ShSDisk.html#a8f48dbdb73c9f5c0528915c7385bace9',1,'kariba::ShSDisk']]]
 ];
