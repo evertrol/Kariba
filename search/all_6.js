@@ -20,7 +20,7 @@ var searchData=
   ['get_5fnphot_5fobs_17',['get_nphot_obs',['../classkariba_1_1Radiation.html#a0721da02683cd9952685126ebca42162',1,'kariba::Radiation']]],
   ['get_5fp_18',['get_p',['../classkariba_1_1Particles.html#a2330b2a505d5134162ec6941d02fc604',1,'kariba::Particles']]],
   ['get_5fpdens_19',['get_pdens',['../classkariba_1_1Particles.html#af302ec17557077b8c0fa7e3c20cc173f',1,'kariba::Particles']]],
-  ['get_5fsize_20',['get_size',['../classkariba_1_1Radiation.html#a2ff250a59991a3a7dc65923a7caff077',1,'kariba::Radiation']]],
+  ['get_5fsize_20',['get_size',['../classkariba_1_1Radiation.html#a74bee41e08d3953fc56243912de4d07e',1,'kariba::Radiation']]],
   ['get_5ftau_21',['get_tau',['../classkariba_1_1Compton.html#a459c0972419f2bf1cbfdcca248afe273',1,'kariba::Compton']]],
   ['get_5fvolume_22',['get_volume',['../classkariba_1_1Radiation.html#a4c89cab9323faa3afdd6da5332bae64b',1,'kariba::Radiation']]],
   ['get_5fypar_23',['get_ypar',['../classkariba_1_1Compton.html#a9f817354a112b945bcc7cc06ac9e3cb2',1,'kariba::Compton']]],

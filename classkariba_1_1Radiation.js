@@ -5,7 +5,7 @@ var classkariba_1_1Radiation =
     [ "get_energy_obs", "classkariba_1_1Radiation.html#a50646f78ae071e5265f7248a3cb74d04", null ],
     [ "get_nphot", "classkariba_1_1Radiation.html#a865f9fcd54a4f4c97030449af5a25a95", null ],
     [ "get_nphot_obs", "classkariba_1_1Radiation.html#a0721da02683cd9952685126ebca42162", null ],
-    [ "get_size", "classkariba_1_1Radiation.html#a2ff250a59991a3a7dc65923a7caff077", null ],
+    [ "get_size", "classkariba_1_1Radiation.html#a74bee41e08d3953fc56243912de4d07e", null ],
     [ "get_volume", "classkariba_1_1Radiation.html#a4c89cab9323faa3afdd6da5332bae64b", null ],
     [ "integrated_luminosity", "classkariba_1_1Radiation.html#a20ac53371ada2e937db6ab2feb484deb", null ],
     [ "set_beaming", "classkariba_1_1Radiation.html#a74e432e75b4be7a8387019898d6691ad", null ],

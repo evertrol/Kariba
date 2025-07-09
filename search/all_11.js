@@ -21,7 +21,7 @@ var searchData=
   ['set_5fgdens_18',['set_gdens',['../classkariba_1_1Powerlaw.html#a54f9b1b4b8e3789c3e45f4a3255db243',1,'kariba::Powerlaw::set_gdens(double &amp;plfrac_p, double Up, double protdens)'],['../classkariba_1_1Powerlaw.html#acf4a83c0b6558e41efec7328f981f747',1,'kariba::Powerlaw::set_gdens(double r, double protdens, double nwind, double bfield, double plfrac, double Urad)']]],
   ['set_5fgdens_5fpdens_19',['set_gdens_pdens',['../classkariba_1_1Powerlaw.html#a07730cc65bfd7ad07a0a71f0e914d5bc',1,'kariba::Powerlaw']]],
   ['set_5fgeometry_20',['set_geometry',['../classkariba_1_1Radiation.html#aac04f8062033bf4ab6f9a2ac01ead179',1,'kariba::Radiation::set_geometry(const std::string &amp;geom, double l1, double l2)'],['../classkariba_1_1Radiation.html#a53d1dfd220bcc0a78330d1aa5d6fded3',1,'kariba::Radiation::set_geometry(const std::string &amp;geom, double l1)']]],
-  ['set_5fgrays_5fpg_21',['set_grays_pg',['../classkariba_1_1Grays.html#aea34308407adf1bfd4b34d3286d93080',1,'kariba::Grays']]],
+  ['set_5fgrays_5fpg_21',['set_grays_pg',['../classkariba_1_1Grays.html#a3a9696dc8cd76d5f6b8ebf6b0d46767e',1,'kariba::Grays']]],
   ['set_5fgrays_5fpp_22',['set_grays_pp',['../classkariba_1_1Grays.html#af36d057fc128a6fdac06e3133ee5df29',1,'kariba::Grays']]],
   ['set_5finclination_23',['set_inclination',['../classkariba_1_1Radiation.html#aedecf3436cfd9ccd42548656717aa08e',1,'kariba::Radiation']]],
   ['set_5fkappa_24',['set_kappa',['../classkariba_1_1Kappa.html#a901df2f26eb3308f6aed5c785e10e6e0',1,'kariba::Kappa']]],
