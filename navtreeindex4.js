@@ -1,11 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90":[7,0,0,14,2],
-"structkariba_1_1InjectionKappaParams.html":[7,0,0,15],
-"structkariba_1_1InjectionKappaParams.html":[6,0,0,16],
-"structkariba_1_1InjectionKappaParams.html#a38405d848c7e7538028c231dcf88c0a6":[6,0,0,16,1],
-"structkariba_1_1InjectionKappaParams.html#a38405d848c7e7538028c231dcf88c0a6":[7,0,0,15,1],
-"structkariba_1_1InjectionKappaParams.html#a3cd47f03b5db234083824b14812122db":[6,0,0,16,0],
 "structkariba_1_1InjectionKappaParams.html#a3cd47f03b5db234083824b14812122db":[7,0,0,15,0],
 "structkariba_1_1InjectionKappaParams.html#a89c13050d70edf96cf4976c9792e099b":[6,0,0,16,2],
 "structkariba_1_1InjectionKappaParams.html#a89c13050d70edf96cf4976c9792e099b":[7,0,0,15,2],
@@ -31,8 +25,8 @@ var NAVTREEINDEX4 =
 "structkariba_1_1InjectionMixedParams.html#a9417e0283412164ee339030f8d12a11f":[7,0,0,16,0],
 "structkariba_1_1InjectionPlParams.html":[7,0,0,17],
 "structkariba_1_1InjectionPlParams.html":[6,0,0,18],
-"structkariba_1_1InjectionPlParams.html#a1f10c885665fea8fadd313616e140816":[6,0,0,18,1],
 "structkariba_1_1InjectionPlParams.html#a1f10c885665fea8fadd313616e140816":[7,0,0,17,1],
+"structkariba_1_1InjectionPlParams.html#a1f10c885665fea8fadd313616e140816":[6,0,0,18,1],
 "structkariba_1_1InjectionPlParams.html#a5462128d2467391668ceb52fde6d7f10":[7,0,0,17,3],
 "structkariba_1_1InjectionPlParams.html#a5462128d2467391668ceb52fde6d7f10":[6,0,0,18,3],
 "structkariba_1_1InjectionPlParams.html#aca96bc9889613f2b56b56e334ca43c18":[7,0,0,17,0],

@@ -1,11 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"md_testing.html":[4],
-"md_testing.html#autotoc_md19":[4,0],
-"md_testing.html#autotoc_md20":[4,1],
-"md_testing.html#autotoc_md21":[4,2],
-"md_testing.html#autotoc_md22":[4,3],
-"md_using.html":[5],
 "md_using.html#autotoc_md24":[5,0],
 "md_using.html#autotoc_md25":[5,1],
 "md_using.html#autotoc_md26":[5,1,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX3 =
 "structkariba_1_1InjectionBknParams.html#acdf8075cb7b238602fcc9dc3baa8d638":[6,0,0,15,0],
 "structkariba_1_1InjectionBknParams.html#ae6149213b6213f6acc85089e4cd71c27":[7,0,0,14,1],
 "structkariba_1_1InjectionBknParams.html#ae6149213b6213f6acc85089e4cd71c27":[6,0,0,15,1],
-"structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90":[6,0,0,15,2]
+"structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90":[6,0,0,15,2],
+"structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90":[7,0,0,14,2],
+"structkariba_1_1InjectionKappaParams.html":[7,0,0,15],
+"structkariba_1_1InjectionKappaParams.html":[6,0,0,16],
+"structkariba_1_1InjectionKappaParams.html#a38405d848c7e7538028c231dcf88c0a6":[6,0,0,16,1],
+"structkariba_1_1InjectionKappaParams.html#a38405d848c7e7538028c231dcf88c0a6":[7,0,0,15,1],
+"structkariba_1_1InjectionKappaParams.html#a3cd47f03b5db234083824b14812122db":[6,0,0,16,0]
 };

@@ -25,7 +25,6 @@ var classkariba_1_1Radiation =
     [ "num_phot", "classkariba_1_1Radiation.html#a6acf0a1dc56e815d21cc478bc681c49c", null ],
     [ "num_phot_obs", "classkariba_1_1Radiation.html#ad4dfacc83e82a838b2d6a3d3692880c6", null ],
     [ "r", "classkariba_1_1Radiation.html#a658b3bec02597105acaf484b5bacc165", null ],
-    [ "size", "classkariba_1_1Radiation.html#a5a97f00b9d86f787755ebf22c3659aa8", null ],
     [ "vol", "classkariba_1_1Radiation.html#a21dd517a59c1084eb1ee4ee755acb215", null ],
     [ "z", "classkariba_1_1Radiation.html#a325bbffa838cbe2bb6327e533ac8397d", null ]
 ];

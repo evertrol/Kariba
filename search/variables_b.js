@@ -2,7 +2,7 @@ var searchData=
 [
   ['n_0',['n',['../structkariba_1_1ThParams.html#a2c51faf28b27e40b7e8bd450bf56fa22',1,'kariba::ThParams::n'],['../structkariba_1_1InjectionKappaParams.html#a89c13050d70edf96cf4976c9792e099b',1,'kariba::InjectionKappaParams::n'],['../structkariba_1_1InjectionPlParams.html#ae5f66bfc62ca83251b6278d57c16c2fb',1,'kariba::InjectionPlParams::n'],['../structkariba_1_1InjectionBknParams.html#a1c0cb8284a8ff7ced3ec8863e490469b',1,'kariba::InjectionBknParams::n'],['../structkariba_1_1PlParams.html#a671714e5a0c99753580f37f7d81bb878',1,'kariba::PlParams::n']]],
   ['ndens_1',['ndens',['../classkariba_1_1Particles.html#ab119b7425ba1d38bba755c1fed26095d',1,'kariba::Particles']]],
-  ['niter_2',['Niter',['../classkariba_1_1Compton.html#a7b9bc749c4e99665233ed198f64c9e01',1,'kariba::Compton']]],
+  ['niter_2',['Niter',['../classkariba_1_1Compton.html#a909b695263c752492cf27e8882441fad',1,'kariba::Compton']]],
   ['norm_3',['norm',['../classkariba_1_1Bknpower.html#abd9035e6723c0c5f0fca2cf61d620f3d',1,'kariba::Bknpower']]],
   ['normbb_4',['normbb',['../classkariba_1_1BBody.html#a54dd97e3833e9a163457868b2f722732',1,'kariba::BBody']]],
   ['npl_5',['npl',['../structkariba_1_1InjectionMixedParams.html#a30f59289e52a8e056f5b8b07ed1613d4',1,'kariba::InjectionMixedParams']]],

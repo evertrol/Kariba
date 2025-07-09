@@ -88,10 +88,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BBody_8cpp.html",
-"classkariba_1_1Compton.html#a916948a72c7986e71629e74c0c00cd47",
-"classkariba_1_1Powerlaw.html#a07730cc65bfd7ad07a0a71f0e914d5bc",
-"md_testing.html",
-"structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90"
+"classkariba_1_1Compton.html#a9631198617953d50159a5aad8fbefcab",
+"classkariba_1_1Powerlaw.html#a1a64f3e71abeb05215f87cd782e0effe",
+"md_using.html#autotoc_md24",
+"structkariba_1_1InjectionKappaParams.html#a3cd47f03b5db234083824b14812122db"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

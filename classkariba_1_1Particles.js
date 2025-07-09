@@ -23,6 +23,5 @@ var classkariba_1_1Particles =
     [ "mass_gr", "classkariba_1_1Particles.html#a9191188fe595b105770644a3f924cf87", null ],
     [ "mass_kev", "classkariba_1_1Particles.html#aa2b41bbb6e9086d0588de270ee129479", null ],
     [ "ndens", "classkariba_1_1Particles.html#ab119b7425ba1d38bba755c1fed26095d", null ],
-    [ "p", "classkariba_1_1Particles.html#a448c7d6d924c7f76ad0e75637d44d851", null ],
-    [ "size", "classkariba_1_1Particles.html#af0f6097f611376938b07139545b12834", null ]
+    [ "p", "classkariba_1_1Particles.html#a448c7d6d924c7f76ad0e75637d44d851", null ]
 ];

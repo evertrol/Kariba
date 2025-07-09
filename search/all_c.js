@@ -9,7 +9,7 @@ var searchData=
   ['neutrinos_5fpp_6',['neutrinos_pp',['../classkariba_1_1Neutrinos__pp.html',1,'kariba::Neutrinos_pp'],['../classkariba_1_1Neutrinos__pp.html#addda561981d174d8e4bf5bd1fe356fef',1,'kariba::Neutrinos_pp::Neutrinos_pp()']]],
   ['neutrinos_5fpp_2ecpp_7',['Neutrinos_pp.cpp',['../Neutrinos__pp_8cpp.html',1,'']]],
   ['neutrinos_5fpp_2ehpp_8',['Neutrinos_pp.hpp',['../Neutrinos__pp_8hpp.html',1,'']]],
-  ['niter_9',['Niter',['../classkariba_1_1Compton.html#a7b9bc749c4e99665233ed198f64c9e01',1,'kariba::Compton']]],
+  ['niter_9',['Niter',['../classkariba_1_1Compton.html#a909b695263c752492cf27e8882441fad',1,'kariba::Compton']]],
   ['norm_10',['norm',['../classkariba_1_1BBody.html#a38ef58726d735b1d4d10fb93473015d9',1,'kariba::BBody::norm()'],['../classkariba_1_1Bknpower.html#abd9035e6723c0c5f0fca2cf61d620f3d',1,'kariba::Bknpower::norm']]],
   ['norm_5fbkn_5fint_11',['norm_bkn_int',['../classkariba_1_1Bknpower.html#ace0d03e9aa673e766eee3c92ebe12636',1,'kariba::Bknpower::norm_bkn_int'],['../namespacekariba.html#ab59a9fe2643b439b654c7b9a888e9af7',1,'kariba::norm_bkn_int()']]],
   ['norm_5fkappa_5fint_12',['norm_kappa_int',['../classkariba_1_1Kappa.html#af646faa70deb744200954e4cc87e2fca',1,'kariba::Kappa::norm_kappa_int'],['../namespacekariba.html#a0cccb78959ca6956c066fca9d680e763',1,'kariba::norm_kappa_int()']]],

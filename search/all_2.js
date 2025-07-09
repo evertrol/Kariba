@@ -14,7 +14,7 @@ var searchData=
   ['comfnc_11',['comfnc',['../namespacekariba.html#aec3938b80ae406c06198fe94ac0cda86',1,'kariba::comfnc()'],['../classkariba_1_1Compton.html#a6241a7f8fc8b6bcaf80e1022a2426056',1,'kariba::Compton::comfnc']]],
   ['comfncparams_12',['ComfncParams',['../structkariba_1_1ComfncParams.html',1,'kariba']]],
   ['comint_13',['comint',['../classkariba_1_1Compton.html#af5ee861b6066f8d61e6b137b82d35991',1,'kariba::Compton::comint'],['../namespacekariba.html#a20f05f82ed47acac292e4d44715c8fea',1,'kariba::comint()']]],
-  ['comintegral_14',['comintegral',['../classkariba_1_1Compton.html#a623b1dc0a70306f3fa46dbc49a597339',1,'kariba::Compton']]],
+  ['comintegral_14',['comintegral',['../classkariba_1_1Compton.html#a509091cb256bcddf19d1d1a8c50c3d1a',1,'kariba::Compton']]],
   ['comintparams_15',['ComintParams',['../structkariba_1_1ComintParams.html',1,'kariba']]],
   ['compiling_20and_20running_20the_20test_20and_20examples_16',['Compiling and running the test and examples',['../md_installation.html#autotoc_md9',1,'']]],
   ['compton_17',['compton',['../classkariba_1_1Compton.html#a0194e7f57b49701a522c90464f793f5c',1,'kariba::Compton::Compton()'],['../classkariba_1_1Compton.html',1,'kariba::Compton']]],
