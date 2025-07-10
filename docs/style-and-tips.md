@@ -1,5 +1,6 @@
-# Some style guidelines and tips
+[TOC]
 
+# Some style guidelines and tips
 
 ## Use the C++ standard library utilities
 

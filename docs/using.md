@@ -1,4 +1,6 @@
-# Using the Kariba library
+[TOC]
+
+# Using and developing with or for the Kariba library
 
 There are three kind of uses of the Kariba library:
 
@@ -60,7 +62,7 @@ so something like the following compilation command works
 (`mymodel.cpp` and `utils.cpp` being local project files):
 
 ```
-g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/code/kariba/src $HOME/code/kariba/src/libkariba.a -lgsl -lm -o mymodel mymodel.cpp utils.cpp 
+g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/code/kariba/src $HOME/code/kariba/src/libkariba.a -lgsl -lm -o mymodel mymodel.cpp utils.cpp
 ```
 
 Note there is no `-L` flag before the 'libkariba.a' path.
@@ -71,13 +73,13 @@ Add an `-fopenmp` flag if needed, and replace `-O3` with e.g. `-Ofast` if wanted
 If you installed the library (and its header files) in a separate directory, it's very similar. With the above example, it now becomes
 
 ```
-g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/sw/include $HOME/code/kariba/sw/lib/libkariba.a -lgsl -lm -o mymodel mymodel.cpp utils.cpp 
+g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/sw/include $HOME/code/kariba/sw/lib/libkariba.a -lgsl -lm -o mymodel mymodel.cpp utils.cpp
 ```
 
 The above two variants compile your code with a static variant of the Kariba library. If you'd like, you can use the dynamic library instead. The compilation variants then look as follows (using the `-L` option this time):
 
 ```
-g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/code/kariba/src -L$HOME/code/kariba/src -lkariba -lgsl -lm -o mymodel mymodel.cpp utils.cpp 
+g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/code/kariba/src -L$HOME/code/kariba/src -lkariba -lgsl -lm -o mymodel mymodel.cpp utils.cpp
 ```
 
 (not installed; directly from the source repository)
@@ -85,7 +87,7 @@ g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/code/kariba/src -L$HOME/code/kariba/src
 and
 
 ```
-g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/sw/include -L$HOME/code/kariba/sw/lib/ -lkariba -lgsl -lm -o mymodel mymodel.cpp utils.cpp 
+g++ -std=c++17 -O3 -Wall -Wextra -I$HOME/sw/include -L$HOME/code/kariba/sw/lib/ -lkariba -lgsl -lm -o mymodel mymodel.cpp utils.cpp
 ```
 
 With this variant, you'll need to set your `LD_LIBRARY_PATH` (on
@@ -144,7 +146,7 @@ class Thermal2 : public Thermal {
   public:
     // inherit constructors; only works if there are new extra member variables to initialize
     using Thermal::Thermal;
-    
+
     void set_p();
 };
 ```

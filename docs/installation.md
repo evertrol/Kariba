@@ -1,7 +1,10 @@
+[TOC]
+
+# Installation
+
 The Kariba library can be installed using CMake. The installation has been tested against CMake version 3.26, 3.28 and 4.0.
 
-Prerequisites
-=============
+## Prerequisites
 
 The library has two prerequisites:
 
@@ -16,21 +19,21 @@ The library has two prerequisites:
   library.
 
 
-Download
-========
+## Download
 
 First, download or clone the repository.
 
 You can download a zip file from https://github.com/evertrol/bhjet (click the green '<> Code' button, then select "Download ZIP"), or
 clone the repository: on the command line, in a suitable directory:
+
 ```
   git clone https://github.com/evertrol/BHJet.git
 
   cd BHJet
 ```
 
-Set up the installation
-=======================
+## Set up the installation
+
 
 Once inside the local repository, take the following steps:
 
@@ -47,8 +50,7 @@ Once inside the local repository, take the following steps:
 - Check that PyBind11 for Python is installed. Running `python -m pybind11` on the command line should show a help message (instead of an error), and `python -m pybind11 --cmakedir` should print the directory where PyBind11 stores CMake configuration files. (This command is exactly what is being used during the installation to locate and use PyBind11.)
 
 
-Build the code
-==============
+## Build the code
 
 In the base BHJet directory, create a build directory; simply called it `build/`, and change to it:
 ```
@@ -98,8 +100,7 @@ cmake --install --install-prefix=$HOME/sw .
 ```
 
 
-Compiling and running the test and examples
-===========================================
+## Compiling and running the test and examples
 
 If you build everything from the root directory, the unit tests and the examples should already have been built. Otherwise, enter the respective directories, tests/ and examples/, and simply run `make`.
 

@@ -1,3 +1,5 @@
+[TOC]
+
 # Testing Kariba
 
 ## Building Kariba, the examples and tests
