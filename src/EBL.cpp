@@ -1,3 +1,4 @@
+#include <array>
 #include <cmath>
 #include <iostream>
 
@@ -9,7 +10,7 @@ namespace kariba {
 
 static const size_t N_REDSHIFT = 57;
 static const size_t N_ENERGY = 101;
-static const size_t N_ATT = 5757;
+static const size_t N_ATT = N_REDSHIFT * N_ENERGY;
 
 static const double MIN_LUM = 10.0;
 static const double ERG_TO_TEV = 1.0 / 1.6;
@@ -27,117 +28,117 @@ static const double ERG_TO_TEV = 1.0 / 1.6;
 struct {
     // The model by Gilmore et al. (2012) with redshift 0.01-9.00 and energy
     // 0.001-100.000 TeV Array of redshifts
-    const double redshift[N_REDSHIFT] = {
+    const std::array<double, N_REDSHIFT> redshift = {
         0.0099, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.15,  0.2,  0.25, 0.3,
         0.35,   0.4,  0.45, 0.5,  0.55, 0.6,  0.65, 0.7,  0.75, 0.8,  0.85, 0.9,   0.95, 1.0,  1.2,
         1.4,    1.6,  1.8,  2.0,  2.2,  2.4,  2.6,  2.8,  3.0,  3.2,  3.4,  3.6,   3.8,  4.0,  4.2,
         4.4,    4.6,  4.8,  5.0,  5.5,  6.0,  6.5,  7.0,  7.5,  8.0,  8.5,  9.0001};
 
     // Array of photon energies in TeV
-    const double energy[N_ENERGY] = {0.0009,
-                                     0.0011220189,
-                                     0.0012589265,
-                                     0.0014125364,
-                                     0.0015848925999999998,
-                                     0.0017782794,
-                                     0.0019952632000000002,
-                                     0.0022387231000000002,
-                                     0.0025118843000000004,
-                                     0.0028183816,
-                                     0.0031622776,
-                                     0.0035481354999999997,
-                                     0.003981075200000001,
-                                     0.0044668320000000004,
-                                     0.0050118701,
-                                     0.0056234130999999994,
-                                     0.006309576200000001,
-                                     0.0070794639,
-                                     0.0079432754,
-                                     0.0089125059,
-                                     0.01,
-                                     0.011220189,
-                                     0.012589264999999999,
-                                     0.014125363,
-                                     0.015848925,
-                                     0.017782794999999997,
-                                     0.019952631000000002,
-                                     0.02238723,
-                                     0.025118844,
-                                     0.028183816,
-                                     0.031622777,
-                                     0.035481355000000006,
-                                     0.039810754000000004,
-                                     0.04466832,
-                                     0.050118699,
-                                     0.056234133,
-                                     0.063095762,
-                                     0.070794641,
-                                     0.07943275,
-                                     0.089125055,
-                                     0.1,
-                                     0.11220189,
-                                     0.12589265,
-                                     0.14125362,
-                                     0.15848925,
-                                     0.17782794,
-                                     0.19952630999999998,
-                                     0.2238723,
-                                     0.25118842,
-                                     0.28183815999999995,
-                                     0.31622778,
-                                     0.35481353000000004,
-                                     0.3981075,
-                                     0.44668319,
-                                     0.50118703,
-                                     0.56234138,
-                                     0.63095762,
-                                     0.70794644,
-                                     0.7943275,
-                                     0.89125056,
-                                     1.0,
-                                     1.1220188999999998,
-                                     1.2589265,
-                                     1.4125363999999998,
-                                     1.5848925,
-                                     1.7782794,
-                                     1.9952631,
-                                     2.238723,
-                                     2.5118842000000003,
-                                     2.8183817999999996,
-                                     3.1622778,
-                                     3.5481355,
-                                     3.9810752000000003,
-                                     4.466832,
-                                     5.0118705,
-                                     5.6234135,
-                                     6.3095765,
-                                     7.079464,
-                                     7.943275,
-                                     8.912506,
-                                     10.0,
-                                     11.22019,
-                                     12.589265,
-                                     14.125363,
-                                     15.84896,
-                                     17.782794,
-                                     19.952632,
-                                     22.387232,
-                                     25.118842,
-                                     28.18388,
-                                     31.622776,
-                                     35.481352,
-                                     39.810752,
-                                     44.66832,
-                                     50.118812,
-                                     56.234132,
-                                     63.095764,
-                                     70.79464,
-                                     79.432752,
-                                     89.125256,
-                                     100.0001};
+    const std::array<double, N_ENERGY> energy = {0.0009,
+                                                 0.0011220189,
+                                                 0.0012589265,
+                                                 0.0014125364,
+                                                 0.0015848925999999998,
+                                                 0.0017782794,
+                                                 0.0019952632000000002,
+                                                 0.0022387231000000002,
+                                                 0.0025118843000000004,
+                                                 0.0028183816,
+                                                 0.0031622776,
+                                                 0.0035481354999999997,
+                                                 0.003981075200000001,
+                                                 0.0044668320000000004,
+                                                 0.0050118701,
+                                                 0.0056234130999999994,
+                                                 0.006309576200000001,
+                                                 0.0070794639,
+                                                 0.0079432754,
+                                                 0.0089125059,
+                                                 0.01,
+                                                 0.011220189,
+                                                 0.012589264999999999,
+                                                 0.014125363,
+                                                 0.015848925,
+                                                 0.017782794999999997,
+                                                 0.019952631000000002,
+                                                 0.02238723,
+                                                 0.025118844,
+                                                 0.028183816,
+                                                 0.031622777,
+                                                 0.035481355000000006,
+                                                 0.039810754000000004,
+                                                 0.04466832,
+                                                 0.050118699,
+                                                 0.056234133,
+                                                 0.063095762,
+                                                 0.070794641,
+                                                 0.07943275,
+                                                 0.089125055,
+                                                 0.1,
+                                                 0.11220189,
+                                                 0.12589265,
+                                                 0.14125362,
+                                                 0.15848925,
+                                                 0.17782794,
+                                                 0.19952630999999998,
+                                                 0.2238723,
+                                                 0.25118842,
+                                                 0.28183815999999995,
+                                                 0.31622778,
+                                                 0.35481353000000004,
+                                                 0.3981075,
+                                                 0.44668319,
+                                                 0.50118703,
+                                                 0.56234138,
+                                                 0.63095762,
+                                                 0.70794644,
+                                                 0.7943275,
+                                                 0.89125056,
+                                                 1.0,
+                                                 1.1220188999999998,
+                                                 1.2589265,
+                                                 1.4125363999999998,
+                                                 1.5848925,
+                                                 1.7782794,
+                                                 1.9952631,
+                                                 2.238723,
+                                                 2.5118842000000003,
+                                                 2.8183817999999996,
+                                                 3.1622778,
+                                                 3.5481355,
+                                                 3.9810752000000003,
+                                                 4.466832,
+                                                 5.0118705,
+                                                 5.6234135,
+                                                 6.3095765,
+                                                 7.079464,
+                                                 7.943275,
+                                                 8.912506,
+                                                 10.0,
+                                                 11.22019,
+                                                 12.589265,
+                                                 14.125363,
+                                                 15.84896,
+                                                 17.782794,
+                                                 19.952632,
+                                                 22.387232,
+                                                 25.118842,
+                                                 28.18388,
+                                                 31.622776,
+                                                 35.481352,
+                                                 39.810752,
+                                                 44.66832,
+                                                 50.118812,
+                                                 56.234132,
+                                                 63.095764,
+                                                 70.79464,
+                                                 79.432752,
+                                                 89.125256,
+                                                 100.0001};
 
     // Define the attenuation factor table
-    const double ebl[N_ATT] = {
+    const std::array<double, N_ATT> ebl = {
         0.e+00,        0.e+00,        0.e+00,        0.e+00,        0.e+00,        0.e+00,
         0.e+00,        0.e+00,        0.e+00,        0.e+00,        0.e+00,        0.e+00,
         0.e+00,        0.e+00,        0.e+00,        0.e+00,        0.e+00,        0.e+00,
@@ -1100,42 +1101,47 @@ struct {
         1.0000000e+10, 1.0000000e+10, 1.0000000e+10};
 } static LUT;
 
+// Internal function to provide the actual interpolation
+//
+// Performs a two-dimensional interpolation over the EBL table,
+// for the given redshift and set of input energies.
+static void interpolate(const std::vector<double> &en, std::vector<double> &lum, double redshift) {
+    gsl_interp_accel *acc_TeV = gsl_interp_accel_alloc();
+    gsl_interp_accel *acc_redshift = gsl_interp_accel_alloc();
+    gsl_spline2d *tau_gil =
+        gsl_spline2d_alloc(gsl_interp2d_bicubic, LUT.redshift.size(), LUT.energy.size());
+    gsl_spline2d_init(tau_gil, LUT.redshift.data(), LUT.energy.data(), LUT.ebl.data(),
+                      LUT.redshift.size(), LUT.energy.size());
+
+    for (size_t k = 0; k < en.size(); k++) {
+        double energy = en[k] * ERG_TO_TEV;
+        if (lum[k] < MIN_LUM) {
+            continue;
+        } else if (energy > LUT.energy.front() && energy < LUT.energy.back()) {
+            if (gsl_spline2d_eval(tau_gil, redshift, energy, acc_redshift, acc_TeV) >= 0.) {
+                lum[k] = lum[k] * std::exp(-1. * gsl_spline2d_eval(tau_gil, redshift, energy,
+                                                                   acc_redshift, acc_TeV));
+            }
+        }
+    }
+    gsl_interp_accel_free(acc_TeV);
+    gsl_interp_accel_free(acc_redshift);
+    gsl_spline2d_free(tau_gil);
+}
+
 //! Now define the function that does the EBL attenuation correction for the
 //! model by Gilmore et al. (2012)
-void ebl_atten_gil(size_t size, const std::vector<double> &en, std::vector<double> &lum,
-                   double redshift) {
-    if (redshift < LUT.redshift[0]) {
-        std::cout << "Redshift is too small for EBL model(0.01 < redshift < "
-                     "9.00). No interpolation possible."
-                  << std::endl;
-    } else if (redshift > LUT.redshift[N_REDSHIFT - 1]) {
-        std::cout << "Redshift is too large for EBL model(0.01 < redshift < "
-                     "9.00). No interpolation possible."
-                  << std::endl;
+void ebl_atten_gil(const std::vector<double> &en, std::vector<double> &lum, double redshift) {
+    if (redshift < LUT.redshift.front()) {
+        std::cerr << "Redshift is too small for EBL model (0.01 < redshift < "
+                     "9.00). Using no attenuation.\n";
+    } else if (redshift > LUT.redshift.back()) {
+        std::cerr << "Redshift is too large for EBL model (0.01 < redshift < "
+                     "9.00). Using attenuation for z = 9 instead.\n";
+        // To do: replace with 1d spline interpolation over the energy only
+        interpolate(en, lum, 9);
     } else {
-        gsl_interp_accel *acc_TeV = gsl_interp_accel_alloc();
-        gsl_interp_accel *acc_redshift = gsl_interp_accel_alloc();
-        gsl_spline2d *tau_gil = gsl_spline2d_alloc(gsl_interp2d_bicubic, 57, 101);
-        gsl_spline2d_init(tau_gil, LUT.redshift, LUT.energy, LUT.ebl, 57, 101);
-
-        if (redshift > LUT.redshift[0] && redshift < LUT.redshift[N_REDSHIFT - 1]) {
-            for (size_t k = 0; k < size; k++) {
-                if (lum[k] < MIN_LUM) {
-                    continue;
-                } else if (en[k] * ERG_TO_TEV > LUT.energy[0] &&
-                           en[k] * ERG_TO_TEV < LUT.energy[N_ENERGY - 1]) {
-                    if (gsl_spline2d_eval(tau_gil, redshift, en[k] * ERG_TO_TEV, acc_redshift,
-                                          acc_TeV) >= 0.) {
-                        lum[k] = lum[k] * std::exp(-1. * gsl_spline2d_eval(tau_gil, redshift,
-                                                                           en[k] * ERG_TO_TEV,
-                                                                           acc_redshift, acc_TeV));
-                    }
-                }
-            }
-            gsl_interp_accel_free(acc_TeV);
-            gsl_interp_accel_free(acc_redshift);
-            gsl_spline2d_free(tau_gil);
-        }
+        interpolate(en, lum, redshift);
     }
 }
 

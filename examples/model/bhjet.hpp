@@ -140,5 +140,3 @@ void zone_agn_phfields(double z, zone_pars &zone, double &ublr_zone, double &udt
 void clean_file(std::string path, int check);
 void jetinterp(std::vector<double> &ear, std::vector<double> &energ, std::vector<double> &phot,
                std::vector<double> &photar, size_t ne, size_t newne);
-
-void ebl_atten_gil(int size, std::vector<double> &en, std::vector<double> &lum, double redsh);

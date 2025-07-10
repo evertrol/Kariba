@@ -660,10 +660,8 @@ void jetmain(std::vector<double> &ear, size_t ne, std::vector<double> &param,
 
     // Apply EBL attenuation factor for extragalactic sources
     if (redsh > 0. && EBLsw == 1) {
-        kariba::ebl_atten_gil(ne, tot_en, tot_lum,
-                              redsh);    // correction for total
-                                         // luminosity
-        kariba::ebl_atten_gil(ne, tot_en, tot_com_post,
+        kariba::ebl_atten_gil(tot_en, tot_lum, redsh);    // correction for total luminosity
+        kariba::ebl_atten_gil(tot_en, tot_com_post,
                               redsh);    // correction for post Compton luminosity
     }
     output_spectrum(ne, tot_en, tot_lum, photspec, redsh, dist);
