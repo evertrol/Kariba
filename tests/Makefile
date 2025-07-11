@@ -41,11 +41,12 @@ OBJECTS = $(MAIN_OBJ) $(PARTICLE_OBJ) $(RADIATION_OBJ) $(DISTRIBUTIONS_OBJ) $(PO
 
 .PHONY: all tests main distclean
 
-all: main
+all: main ebl
 
 main: $(OBJECTS)
 	$(LD) $(LDFLAGS) -o $(TEST_MAIN) $(OBJECTS) $(LIBKARIBA) $(LDLIBS)
-
+ebl: test_ebl.cpp doctest.h
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(LIBKARIBA) $(LDLIBS) -o test_ebl $<
 
 %.o: %.cpp doctest.h
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c -o $@ $<
