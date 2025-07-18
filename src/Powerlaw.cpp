@@ -414,9 +414,9 @@ void Powerlaw::set_pp_elecs(gsl_interp_accel* acc_Jp, gsl_spline* spline_Jp, dou
     double pp_targets = target_protons(ntot_prot, nwind, plfrac);
     double Epcode_max = Ep_max * constants::erg * 1.e-12;    // The proton energy in TeV
 
-    const size_t N = 60;                        // The number of steps of the secondary particle
+    constexpr size_t N = 60;                    // The number of steps of the secondary particle
                                                 // (e.g., pion) energy.
-    const double gmin = 1.002;                  // the min Lorentz factor of the secondary
+    constexpr double gmin = 1.002;              // the min Lorentz factor of the secondary
     double gmax = Ep_max / constants::emerg;    // the max Lorentz factor of the secondary
     double Ep;                                  // the energy of the proton
     double Bprob;    // Energy distribution of sec electrons for arbitrary pion

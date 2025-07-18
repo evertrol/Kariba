@@ -12,17 +12,17 @@ Gamma-rays from neutral pion decay, products of inelastic pp and pγ collisions
 
 namespace kariba {
 
-static const size_t nitems = 22;
-static const std::array<double, nitems> etagTable = {1.1, 1.2,  1.3,  1.4, 1.5,  1.6,  1.7, 1.8,
-                                                     1.9, 2.0,  3.0,  4.0, 5.0,  6.0,  7.0, 8.0,
-                                                     9.0, 10.0, 20.0, 30., 40.0, 100.0};
-static const std::array<double, nitems> sgTable = {
+static constexpr size_t nitems = 22;
+static constexpr std::array<double, nitems> etagTable = {1.1, 1.2,  1.3,  1.4, 1.5,  1.6,  1.7, 1.8,
+                                                         1.9, 2.0,  3.0,  4.0, 5.0,  6.0,  7.0, 8.0,
+                                                         9.0, 10.0, 20.0, 30., 40.0, 100.0};
+static constexpr std::array<double, nitems> sgTable = {
     0.0768, 0.106, 0.182, 0.201, 0.219,  0.216,  0.233,  0.233, 0.248,  0.244,  0.188,
     0.131,  0.120, 0.107, 0.102, 0.0932, 0.0838, 0.0761, 0.107, 0.0928, 0.0722, 0.0479};
-static const std::array<double, nitems> deltagTable = {
+static constexpr std::array<double, nitems> deltagTable = {
     0.544, 0.540, 0.750, 0.791, 0.788, 0.831, 0.839, 0.825, 0.805, 0.779, 1.23,
     1.82,  2.05,  2.19,  2.23,  2.29,  2.37,  2.43,  2.27,  2.33,  2.42,  2.59};
-static const std::array<double, nitems> BetagTable = {
+static constexpr std::array<double, nitems> BetagTable = {
     2.86e-19, 2.24e-18, 5.61e-18, 1.02e-17, 1.60e-17, 2.23e-17, 3.10e-17, 4.07e-17,
     5.30e-17, 6.74e-17, 1.51e-16, 1.24e-16, 1.37e-16, 1.62e-16, 1.71e-16, 1.78e-16,
     1.84e-16, 1.93e-16, 4.74e-16, 7.70e-16, 1.06e-15, 2.73e-15};

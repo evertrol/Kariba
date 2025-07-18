@@ -13,83 +13,84 @@
 namespace kariba {
 
 //----------------------- electrons -----------------------//
-static const std::array<double, 10> etaeTable = {3.0, 4.0, 5.0,  6.0,  7.0,
-                                                 8.0, 9.0, 10.0, 30.0, 100.0};
-static const std::array<double, 10> seTable = {0.658, 0.348, 0.286, 0.256, 0.258,
-                                               0.220, 0.217, 0.192, 0.125, 0.0507};
-static const std::array<double, 10> deltaeTable = {3.09, 2.81, 2.39, 2.27, 2.13,
-                                                   2.20, 2.13, 2.19, 2.27, 2.63};
-static const std::array<double, 10> BetaeTable = {6.43e-19, 9.91e-18, 1.24e-16, 2.67e-16, 3.50e-16,
-                                                  4.03e-16, 4.48e-16, 4.78e-16, 1.64e-15, 4.52e-15};
+static constexpr std::array<double, 10> etaeTable = {3.0, 4.0, 5.0,  6.0,  7.0,
+                                                     8.0, 9.0, 10.0, 30.0, 100.0};
+static constexpr std::array<double, 10> seTable = {0.658, 0.348, 0.286, 0.256, 0.258,
+                                                   0.220, 0.217, 0.192, 0.125, 0.0507};
+static constexpr std::array<double, 10> deltaeTable = {3.09, 2.81, 2.39, 2.27, 2.13,
+                                                       2.20, 2.13, 2.19, 2.27, 2.63};
+static constexpr std::array<double, 10> BetaeTable = {6.43e-19, 9.91e-18, 1.24e-16, 2.67e-16,
+                                                      3.50e-16, 4.03e-16, 4.48e-16, 4.78e-16,
+                                                      1.64e-15, 4.52e-15};
 
 //----------------------- positrons -----------------------//
-static const std::array<double, 20> etaposTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
-                                                   1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
-                                                   7.0, 8.0, 9.0, 10.0, 30., 100.0};
-static const std::array<double, 20> sposTable = {
+static constexpr std::array<double, 20> etaposTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
+                                                       1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
+                                                       7.0, 8.0, 9.0, 10.0, 30., 100.0};
+static constexpr std::array<double, 20> sposTable = {
     0.367, 0.282, 0.260,  0.239,  0.224,  0.207,  0.198,  0.193,  0.187,  0.181,
     0.122, 0.106, 0.0983, 0.0875, 0.0830, 0.0783, 0.0735, 0.0644, 0.0333, 0.0224};
-static const std::array<double, 20> deltaposTable = {3.12, 2.96, 2.83, 2.76, 2.69, 2.66, 2.56,
-                                                     2.52, 2.49, 2.48, 2.50, 2.46, 2.46, 2.44,
-                                                     2.44, 2.45, 2.5,  2.77, 2.86};
-static const std::array<double, 20> BetaposTable = {
+static constexpr std::array<double, 20> deltaposTable = {3.12, 2.96, 2.83, 2.76, 2.69, 2.66, 2.56,
+                                                         2.52, 2.49, 2.48, 2.50, 2.46, 2.46, 2.44,
+                                                         2.44, 2.45, 2.5,  2.77, 2.86};
+static constexpr std::array<double, 20> BetaposTable = {
     8.09e-19, 7.70e-18, 2.05e-17, 3.66e-17, 5.48e-17, 7.39e-17, 9.52e-17,
     1.20e-16, 1.47e-16, 1.75e-16, 3.31e-16, 4.16e-16, 5.57e-16, 6.78e-16,
     7.65e-16, 8.52e-16, 9.17e-16, 9.57e-16, 3.07e-15, 1.58e-14};
 
 //----------------------- muon neutrinos -----------------------//
-static const std::array<double, 20> eta_muonTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
-                                                     1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
-                                                     7.0, 8.0, 9.0, 10.0, 30., 100.0};
-static const std::array<double, 20> s_muonTable = {
+static constexpr std::array<double, 20> eta_muonTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
+                                                         1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
+                                                         7.0, 8.0, 9.0, 10.0, 30., 100.0};
+static constexpr std::array<double, 20> s_muonTable = {
     0.0,   0.0778, 0.242, 0.377, 0.440, 0.450, 0.461, 0.451, 0.464,  0.446,
     0.366, 0.249,  0.204, 0.174, 0.156, 0.140, 0.121, 0.107, 0.0705, 0.0463};
-static const std::array<double, 20> delta_muonTable = {
+static constexpr std::array<double, 20> delta_muonTable = {
     0.0,  0.306, 0.792, 1.09, 1.06, 0.953, 0.956, 0.922, 0.912, 0.940,
     1.49, 2.03,  2.18,  2.24, 2.28, 2.32,  2.39,  2.46,  2.53,  2.62};
-static const std::array<double, 20> Beta_muonTable = {
+static constexpr std::array<double, 20> Beta_muonTable = {
     1.08e-18, 9.91e-18, 2.47e-17, 4.43e-17, 6.70e-17, 9.04e-17, 1.18e-16,
     1.32e-16, 1.77e-16, 2.11e-16, 3.83e-16, 5.09e-16, 7.26e-16, 9.26e-16,
     1.07e-15, 1.19e-15, 1.29e-15, 1.40e-15, 5.65e-15, 3.01e-14};
 
 //----------------------- muon antineutrinos -----------------------//
-static const std::array<double, 20> eta_antimuonTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
-                                                         1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
-                                                         7.0, 8.0, 9.0, 10.0, 30., 100.0};
-static const std::array<double, 20> s_antimuonTable = {
+static constexpr std::array<double, 20> eta_antimuonTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
+                                                             1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
+                                                             7.0, 8.0, 9.0, 10.0, 30., 100.0};
+static constexpr std::array<double, 20> s_antimuonTable = {
     0.365, 0.287, 0.250,  0.238,  0.220,  0.206,  0.197,  0.193,  0.187,  0.178,
     0.123, 0.106, 0.0944, 0.0829, 0.0801, 0.0752, 0.0680, 0.0615, 0.0361, 0.0228};
-static const std::array<double, 20> delta_antimuonTable = {3.09, 2.96, 2.89, 2.76, 2.71, 2.67, 2.62,
-                                                           2.56, 2.52, 2.51, 2.48, 2.56, 2.57, 2.58,
-                                                           2.54, 2.53, 2.56, 2.60, 2.78, 2.88};
-static const std::array<double, 20> Beta_atnimuonTable = {
+static constexpr std::array<double, 20> delta_antimuonTable = {
+    3.09, 2.96, 2.89, 2.76, 2.71, 2.67, 2.62, 2.56, 2.52, 2.51,
+    2.48, 2.56, 2.57, 2.58, 2.54, 2.53, 2.56, 2.60, 2.78, 2.88};
+static constexpr std::array<double, 20> Beta_atnimuonTable = {
     8.09e-19, 7.70e-18, 1.99e-17, 3.62e-17, 5.39e-17, 7.39e-17, 9.48e-17,
     1.20e-16, 1.47e-16, 1.74e-16, 3.38e-16, 5.17e-16, 7.61e-16, 9.57e-16,
     1.11e-15, 1.25e-15, 1.36e-15, 1.46e-15, 5.87e-15, 3.10e-14};
 
 //----------------------- electron neutrinos -----------------------//
-static const std::array<double, 20> eta_electronTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
-                                                         1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
-                                                         7.0, 8.0, 9.0, 10.0, 30., 100.0};
-static const std::array<double, 20> s_electronTable = {
+static constexpr std::array<double, 20> eta_electronTable = {1.1, 1.2, 1.3, 1.4,  1.5, 1.6,  1.7,
+                                                             1.8, 1.9, 2.0, 3.0,  4.0, 5.0,  6.0,
+                                                             7.0, 8.0, 9.0, 10.0, 30., 100.0};
+static constexpr std::array<double, 20> s_electronTable = {
     0.768, 0.569, 0.491, 0.395,  0.310,  0.323,  0.305, 0.285,  0.270,  0.259,
     0.158, 0.129, 0.113, 0.0996, 0.0921, 0.0861, .0800, 0.0723, 0.0411, 0.0283};
-static const std::array<double, 20> delta_electronTable = {2.49, 2.35, 2.41, 2.45, 2.45, 2.43, 2.40,
-                                                           2.39, 2.37, 2.35, 2.42, 2.46, 2.45, 2.46,
-                                                           2.46, 2.45, 2.47, 2.51, 2.70, 2.77};
-static const std::array<double, 20> Beta_electronTable = {
+static constexpr std::array<double, 20> delta_electronTable = {
+    2.49, 2.35, 2.41, 2.45, 2.45, 2.43, 2.40, 2.39, 2.37, 2.35,
+    2.42, 2.46, 2.45, 2.46, 2.46, 2.45, 2.47, 2.51, 2.70, 2.77};
+static constexpr std::array<double, 20> Beta_electronTable = {
     9.43e-19, 9.22e-18, 2.35e-17, 4.20e-17, 6.26e-17, 8.57e-17, 1.13e-16,
     1.39e-16, 1.70e-16, 2.05e-16, 3.81e-16, 4.74e-16, 6.30e-16, 7.65e-16,
     8.61e-16, 9.61e-16, 1.03e-15, 1.10e-15, 3.55e-15, 1.84e-14};
 
 //----------------------- electron antineutrinos -----------------------//
-static const std::array<double, 10> eta_antielectronTable = {3.0, 4.0, 5.0,  6.0,  7.0,
-                                                             8.0, 9.0, 10.0, 30.0, 100.0};
-static const std::array<double, 10> s_antielectronTable = {0.985, 0.378, 0.310, 0.327, 0.308,
-                                                           0.292, 0.260, 0.233, 0.135, 0.077};
-static const std::array<double, 10> delta_antielectronTable = {2.63, 2.98, 2.31, 2.11, 2.03,
-                                                               1.98, 2.02, 2.07, 2.24, 2.40};
-static const std::array<double, 10> Beta_antielectronTable = {
+static constexpr std::array<double, 10> eta_antielectronTable = {3.0, 4.0, 5.0,  6.0,  7.0,
+                                                                 8.0, 9.0, 10.0, 30.0, 100.0};
+static constexpr std::array<double, 10> s_antielectronTable = {0.985, 0.378, 0.310, 0.327, 0.308,
+                                                               0.292, 0.260, 0.233, 0.135, 0.077};
+static constexpr std::array<double, 10> delta_antielectronTable = {2.63, 2.98, 2.31, 2.11, 2.03,
+                                                                   1.98, 2.02, 2.07, 2.24, 2.40};
+static constexpr std::array<double, 10> Beta_antielectronTable = {
     6.61e-19, 9.74e-18, 1.34e-16, 2.91e-16, 3.81e-16,
     4.48e-16, 4.83e-16, 5.13e-16, 1.75e-15, 5.48e-15};
 
@@ -126,7 +127,7 @@ void Neutrinos_pg::set_neutrinos(double gp_min, double gp_max, gsl_interp_accel*
             PhotopionFile.open(filepath, std::ios::app);
         }
     }
-    const size_t N = 10;
+    constexpr size_t N = 10;
     double Epion = 139.6e6 / constants::erg;    // rest mass of pion in erg
     double eta, deta;                           // eta parameter: η = 4εE_p/(m_p^2*c^4) and its step
     double eta_zero = 0.313;                    // eq 16 from Kelner & Aharonian 08
