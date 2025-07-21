@@ -1,5 +1,7 @@
 #pragma once
 
+#include <vector>
+
 #include <gsl/gsl_spline2d.h>
 
 #include "Radiation.hpp"
